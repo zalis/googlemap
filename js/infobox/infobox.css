@@ -1,0 +1,225 @@
+
+.ib {
+	position: absolute;
+	display: none;
+	z-index: 400;
+}
+
+.tt {
+	position: absolute;
+	display: none;
+	z-index: 600;
+}
+
+.tt .frame div, .ib .frame div{
+}
+
+.tt .frame, .ib .frame {
+	margin: 0;
+	border:1px solid;
+	border-color: #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	behavior: url(/lib/PIE.htc);
+}
+.tt .frame {
+	-webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, .2);
+	box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, .2);
+	behavior: url(/lib/PIE.htc);
+	background:#dAd9d1;
+}
+.ib .frame {
+	-webkit-box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, .9);
+	box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, .9);
+	behavior: url(/lib/PIE.htc);
+	background:#dAd9d1;
+}
+
+.tt .header, .ib .header {
+	background-color: #5C6278;
+	border-bottom-color: #fff;
+	-webkit-box-shadow: inset 0px 2px 2px 1px rgba(0, 0, 0, .2);
+	box-shadow: inset 0px 2px 2px 1px rgba(0, 0, 0, .2);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	behavior: url(/lib/PIE.htc);
+	
+	font-size:13px;
+	color:#ffffff;
+	line-height:20px;
+	padding: 0 15px 0 7px;
+}
+
+.ib .header {
+	border-bottom: 1px solid;
+}
+
+.tt .frame .info, .ib .frame .info{
+	display: inline-block;
+	padding: 5px 15px 0px 0 !important;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	width:100%;
+	
+	min-width:200px;
+	min-height:20px;
+	
+}
+
+.ib .body {
+	color:#3a3a3a;
+	line-height:22px;
+	margin: 0 7px 0 7px;
+}
+
+.ib .header .info{
+	min-width:200px;
+	min-height:20px;
+	color:#ffffff;
+}
+
+.ib_close {
+	position: absolute;
+	right:9px;
+	top:9px;
+	width:14px;
+	height:14px;
+	cursor:pointer;
+
+	-moz-opacity: 0.57;
+	-khtml-opacity: 0.57;
+	opacity: 0.57;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=57);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=57);
+}
+
+.ib_close_w {
+	background: url(/googlemap/js/infobox/img/close_w.png) no-repeat;
+}
+
+.ib_close_b {
+	background: url(/googlemap/js/infobox/img/close_b.png) no-repeat;
+}
+
+.ib .frame .num, .tt .frame .num{
+	font-weight:normal;
+	padding:0 8px 0 8px;
+	padding:0 8px 0 8px;
+}
+
+.ib .frame .value, .tt .frame .value{
+	padding:0 8px 0 8px;
+	white-space:normal !important;
+}
+
+.ib .frame .sep, .tt .frame .sep{
+	height:2.4em; 
+	width:1px; 
+	background: #727B8C;
+}
+
+.ib .header .info a{
+	color:#7CBCFF;
+	text-decoration: none;
+}
+
+.ib .body .info a{
+	color:#0062F5;
+}
+
+.table{
+	display:table;
+}
+
+.caption{
+	display:inline-block;
+	padding-top:.4em;
+	font-size:16px; 
+	font-weight:bold;
+	color:#000000;
+}
+
+.row{
+	display:table-row;
+}
+
+.cell{
+	display:table-cell;
+	white-space:nowrap;
+}
+
+.cell.top{
+	vertical-align:top;
+}
+
+.cell.middle{
+	vertical-align:middle;
+}
+
+.grey{
+	color:#bfbfbf;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.icon-to-2{
+	width: 32px; 
+	background:url('/googlemap/js/infobox/img/open_second_win_but.png') no-repeat;
+	background-position: -40px 0px;
+	height: 20px!important;
+}
+
+.tt .header .icon-to-2.link, .ib .header .icon-to-2.link{
+	background-image:url('/googlemap/js/infobox/img/open_second_win_but.png'); 
+	background-position: -1px 0px;
+	cursor:pointer;
+}
+.tt .header .icon-to-2.link:hover { 
+	background-image:url('/googlemap/js/infobox/img/open_second_win_but.png'); 
+	background-position: -81px 0px;
+	cursor:pointer;
+}
+
+
+.ib .body .icon-to-2.link:hover { 
+	background-image:url('/googlemap/js/infobox/img/open_second_win_but.png'); 
+	background-position: -81px 0px;
+	cursor:pointer;
+}
+
+.ib .header .icon-to-2.link:hover { 
+	background-image:url('/googlemap/js/infobox/img/open_second_win_but.png'); 
+	background-position: -81px 0px;
+	cursor:pointer;
+}
+
+
+
+.ib .body .icon-to-2.link{
+	background-image:url('/googlemap/js/infobox/img/open_second_win_but.png'); 
+	background-position: -1px 0px;
+	cursor:pointer;
+}
+
+.hr{
+	height:.5em;
+	border-bottom:1px dashed #a5a39e;
+}
+
+.currency{
+	font-family:Roboto, Arial, Helvetica, sans-serif;
+}
+
+.money{
+	font-family:Times New Roman;
+	font-weight:normal;
+}
+
+.stem{
+	pointer-events: none;
+}

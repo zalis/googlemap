@@ -1,0 +1,58 @@
+<div class="header">
+	<div class="info">
+	
+		<div class="table">
+		   <div class="cell top">
+			  <div><strong><a href="#"><%= name %></a></strong></div>
+			  <div class="grey"><%= location %></div>
+		   </div>
+		   <div class="cell middle num"><div class="sep">&nbsp;</div></div>
+		   <div class="cell top">Total SC cost:<br># of shipment:</div>
+		   <div class="cell top">
+			  <div class="num swl"><a href="#"><%= totalLogisticsCost %></a></div>
+			  <div class="num swl"><a href="#"><%= shipments %></a></div>
+		   </div>
+		</div>
+	
+	</div>
+</div>
+<div class="body">
+	<div class="info">
+	
+		<div class="table">   
+			<div class="caption">Volume</div>
+			<div class="row">
+				<div class="cell">Total # of pallets</div>
+				<div class="swl cell num"><a href="#"><%= pallets %></a></div>
+			</div>
+		</div>
+		<div class="hr"></div>
+		<div class="table">   
+			<div class="caption">KPI's:</div>
+			<div class="row">
+				<div class="cell">OTIF</div>
+				<div class="cell num swl"><a href="#">98%</a></div>
+				<div class="cell nwl"><div class="icon-to-2 link">&nbsp;</div></div>
+			</div>
+			<div class="row">
+				<div class="cell">Average shipment (week)</div>
+				<div class="cell num swl"><a href="#"><%= avgShipmentSize %></a></div>
+				<div class="cell nwl"><div class="icon-to-2 link">&nbsp;</div></div>
+			</div>
+			<div class="row">
+				<div class="cell">Average size (pallets)</div>
+				<div class="cell num swl"><a href="#"><%= avgSize %></a></div>
+				<div class="cell nwl"><div class="icon-to-2 link">&nbsp;</div></div>
+			</div>
+			<div class="row">
+				<div class="cell">Average cost per pallet</div>
+				<div class="cell num swl"><a href="#"><%= avgCostPerPallet %></a></div>
+				<div class="cell nwl"><div class="icon-to-2 link">&nbsp;</div></div>
+			</div>
+		</div>
+	
+	</div>
+</div>
+
+
+

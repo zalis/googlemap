@@ -1,0 +1,212 @@
+{
+	"css": {
+		"width": "100%",
+		"height": "100%"
+	},
+
+	"appearance":	{
+		"zoom": 5,
+		"minZoom": 4,
+		"maxZoom": 8,
+		"mapCenter": {
+			"lat": 49.3,
+			"lng": 7
+		},
+		"mapTypeId": "roadmap",
+		"mapTypeControl": false,
+		"panControl": true,
+		"streetViewControl": false,
+		"zoomControl": true,
+		"zoomControlOptions": {
+			"style": 2
+		},
+		"styles": [
+
+			{
+				"featureType": "water",
+				"elementType": "geometry",
+				"stylers": [
+					{"color": "#ffffff"}
+				]
+			},
+			{
+				"featureType": "water",
+				"elementType": "labels",
+				"stylers": [{"visibility":"off"}]
+			},
+			{
+				"featureType": "administrative",
+				"elementType": "labels",
+				"stylers": [{"visibility":"off"}]
+			},
+			{
+				"featureType": "administrative",
+				"elementType": "geometry.stroke",
+				"stylers": [
+					{"color": "#d6dbc9"},
+					{"weight": 1}
+				]
+			},
+			{
+				"featureType": "administrative.country"
+			},
+			{
+				"featureType": "administrative.province",
+				"stylers": [{"visibility":"off"}]
+			},
+			{
+				"featureType": "administrative.locality",
+				"stylers": [{"visibility":"off"}]
+			},
+			{
+				"featureType": "administrative.neighborhood",
+				"stylers": [{"visibility":"off"}]
+			},
+			{
+				"featureType": "administrative.land_parcel",
+				"stylers": [{"visibility":"off"}]
+			},
+			{
+				"featureType": "poi",
+				"stylers": [{"visibility":"off"}]
+			},
+			{
+				"featureType": "landscape",
+				"elementType": "geometry.fill",
+				"stylers": [
+					{"color": "#d6dbc9"}
+				]
+			},
+			{
+				"featureType": "landscape",
+				"elementType": "labels",
+				"stylers": [{"visibility":"off"}]
+			},
+			{
+				"featureType": "road",
+				"stylers": [{"visibility":"off"}]
+			},
+			{
+				"featureType": "transit",
+				"stylers": [{"visibility":"off"}]
+			}
+		]
+	},
+	
+	"graphics": {
+		"facilities": {
+			"city": {
+				"primitive": "circle",
+				"strokeWidth": 1.2,
+				"fillColor": "#fff",
+				"strokeColor": "#000",
+				"strokeOpacity": 0.6,
+				"size": 8,
+				"hoverEffect": false,
+				"label":{
+					"pos":{
+						"x": 0,
+						"y": 10
+					},
+					"attr":{
+						"font-size": 12, 
+						"font-family": "Arial", 
+						"fill": "#000",
+						"fill-opacity": 0.7
+					}
+				}
+			},
+			"plant": {
+				"primitive": "triangle",
+				"strokeWidth": 1,
+				"fillColor": "#3131ff",
+				"strokeColor": "#fff",
+				"size": 13,
+				"hoverEffect": true,
+				"handledEvents": ["mouseover", "mouseout", "click"]
+			},
+			"warehouse": {
+				"primitive": "rhombus",
+				"strokeWidth": 1,
+				"fillColor": "#3535ff",
+				"strokeColor": "#fff",
+				"size": 14,
+				"hoverEffect": true,
+				"handledEvents": ["mouseover", "mouseout", "click"]
+			},
+			"customer": {
+				"primitive": "circle",
+				"strokeWidth": 1.2,
+				"fillColor": "#d40000",
+				"strokeColor": "#fff",
+				"size": 9,
+				"hoverEffect": true,
+				"handledEvents": ["mouseover", "mouseout", "click"]
+			}
+		},
+		"lanes": {
+			"primary": {
+				"primitive": "arrow",
+				"strokeWidth": 1,
+				"fillColor": "#147bd2",
+				"fillOpacity": 0.7,
+				"strokeColor": "#004783",
+				"strokeOpacity": 0.7,
+				"hover": {
+					"fill-opacity": 1,
+					"stroke-opacity": 1
+				},
+				"hoverEffect": "style",
+				"handledEvents": ["mouseover", "mouseout", "mousemove", "click"]
+			},
+			"secondary": {
+				"primitive": "arrow",
+				"strokeWidth": 1,
+				"fillColor": "#ff9a57",
+				"fillOpacity": 0.7,
+				"strokeColor": "#f17524",
+				"strokeOpacity": 0.7,
+				"hover": {
+					"fill-opacity": 1,
+					"stroke-opacity": 1
+				},
+				"hoverEffect": "style",
+				"handledEvents": ["mouseover", "mouseout", "mousemove", "click"]
+			},
+			"inbound": {
+				"primitive": "arrow",
+				"strokeWidth": 1,
+				"fillColor": "#20c06e",
+				"fillOpacity": 0.7,
+				"strokeColor": "#039d4e",
+				"strokeOpacity": 0.7,
+				"hover": {
+					"fill-opacity": 1,
+					"stroke-opacity": 1
+				},
+				"hoverEffect": "style",
+				"handledEvents": ["mouseover", "mouseout", "mousemove", "click"]
+			}
+		},
+		"contours": {
+			"country": {
+				"primitive": "polygon",
+				"strokeWidth": 1,
+				"fillColor": "#00700d",
+				"fillOpacity": 0.2,
+				"strokeColor": "#fff",
+				"strokeOpacity": 0.2,
+				"hover": {
+					"fillOpacity": 0.5,
+					"strokeOpacity": 1
+				},
+				"hoverEffect": "fade",
+				"handledEvents": ["mouseover", "mouseout", "click"]
+			}
+		}
+	}
+
+	
+			
+}
+

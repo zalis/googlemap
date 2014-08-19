@@ -1,0 +1,59 @@
+<div class="header">
+	<div class="info">
+	
+        <div class="table">
+           <div class="cell top">
+              <div>Primary Shipments</div>
+              <div class="grey"><%= scope %></div>
+           </div>
+           <div class="cell middle num"><div class="sep">&nbsp;</div></div>
+           <div class="cell top">Total SC cost:<br># of shipment:</div>
+           <div class="cell top">
+              <div class="num"><a href="#"><%= cost %></a></div>
+              <div class="num"><a href="#"><%= shipments %></a></div>
+           </div>
+        </div>
+	
+	</div>
+</div>
+<div class="body">
+	<div class="info">
+	
+        <div class="caption">Primary Shipments Total</div>
+        <div class="table">
+            <div class="row">
+                <div class="cell">Lanes</div>
+                <div class="swl cell num"><a href="#"><%= lanes %></a></div>
+                <div class="nwl cell"><div class="icon-to-2 link">&nbsp;</div></div>
+            </div>
+            <div class="row">
+                <div class="cell">Pallets</div>
+                <div class="swl cell num"><a href="#"><%= pallets %></a></div>
+                <div class="nwl cell"><div class="icon-to-2 link">&nbsp;</div></div>
+            </div>
+            <div class="row">
+                <div class="cell">Hauliers</div>
+                <div class="swl cell num"><a href="#"><%= hauliers %></a></div>
+                <div class="nwl cell"><div class="icon-to-2 link">&nbsp;</div></div>
+            </div>
+        </div>
+        <div class="hr"></div>
+        <div class="table">   
+            <div class="caption">KPI's:</div>
+            <div class="row">
+                <div class="cell">Average pallets per shipment</div>
+                <div class="cell num"><a href="#"><%= avgPalletsPerShipment %></a></div>
+                <div class="cell"><div class="icon-to-2 link">&nbsp;</div></div>
+            </div>
+            <div class="row">
+                <div class="cell">Percentage FTL</div>
+                <div class="cell num"><a href="#"><%= percentageFTL %></a></div>
+                <div class="cell"><div class="icon-to-2 link">&nbsp;</div></div>
+            </div>
+        </div>
+	
+	</div>
+</div>
+
+
+
